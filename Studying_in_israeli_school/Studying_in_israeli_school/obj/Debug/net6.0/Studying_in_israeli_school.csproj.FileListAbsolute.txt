@@ -1,0 +1,15 @@
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\Studying_in_israeli_school.csproj.AssemblyReference.cache
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\Studying_in_israeli_school.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\Studying_in_israeli_school.AssemblyInfoInputs.cache
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\Studying_in_israeli_school.AssemblyInfo.cs
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\Studying_in_israeli_school.csproj.CoreCompileInputs.cache
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\bin\Debug\net6.0\Studying_in_israeli_school.exe
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\bin\Debug\net6.0\Studying_in_israeli_school.deps.json
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\bin\Debug\net6.0\Studying_in_israeli_school.runtimeconfig.json
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\bin\Debug\net6.0\Studying_in_israeli_school.dll
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\bin\Debug\net6.0\Studying_in_israeli_school.pdb
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\Studying_in_israeli_school.dll
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\refint\Studying_in_israeli_school.dll
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\Studying_in_israeli_school.pdb
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\Studying_in_israeli_school.genruntimeconfig.cache
+C:\Users\geras\source\repos\Studying_in_israeli_school\Studying_in_israeli_school\obj\Debug\net6.0\ref\Studying_in_israeli_school.dll

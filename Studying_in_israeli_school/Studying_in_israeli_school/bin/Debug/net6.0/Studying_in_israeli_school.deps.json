@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Studying_in_israeli_school/1.0.0": {
+        "runtime": {
+          "Studying_in_israeli_school.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Studying_in_israeli_school/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
