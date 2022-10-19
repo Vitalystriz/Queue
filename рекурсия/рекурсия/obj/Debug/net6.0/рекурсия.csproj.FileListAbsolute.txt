@@ -1,0 +1,15 @@
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\рекурсия.csproj.AssemblyReference.cache
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\рекурсия.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\рекурсия.AssemblyInfoInputs.cache
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\рекурсия.AssemblyInfo.cs
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\рекурсия.csproj.CoreCompileInputs.cache
+C:\Users\geras\source\repos\рекурсия\рекурсия\bin\Debug\net6.0\рекурсия.exe
+C:\Users\geras\source\repos\рекурсия\рекурсия\bin\Debug\net6.0\рекурсия.deps.json
+C:\Users\geras\source\repos\рекурсия\рекурсия\bin\Debug\net6.0\рекурсия.runtimeconfig.json
+C:\Users\geras\source\repos\рекурсия\рекурсия\bin\Debug\net6.0\рекурсия.dll
+C:\Users\geras\source\repos\рекурсия\рекурсия\bin\Debug\net6.0\рекурсия.pdb
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\рекурсия.dll
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\refint\рекурсия.dll
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\рекурсия.pdb
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\рекурсия.genruntimeconfig.cache
+C:\Users\geras\source\repos\рекурсия\рекурсия\obj\Debug\net6.0\ref\рекурсия.dll
