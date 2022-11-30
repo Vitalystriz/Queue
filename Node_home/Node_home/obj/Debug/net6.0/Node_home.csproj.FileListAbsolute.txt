@@ -1,0 +1,15 @@
+C:\Users\geras\source\repos\Node_home\Node_home\bin\Debug\net6.0\Node_home.exe
+C:\Users\geras\source\repos\Node_home\Node_home\bin\Debug\net6.0\Node_home.deps.json
+C:\Users\geras\source\repos\Node_home\Node_home\bin\Debug\net6.0\Node_home.runtimeconfig.json
+C:\Users\geras\source\repos\Node_home\Node_home\bin\Debug\net6.0\Node_home.dll
+C:\Users\geras\source\repos\Node_home\Node_home\bin\Debug\net6.0\Node_home.pdb
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\Node_home.csproj.AssemblyReference.cache
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\Node_home.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\Node_home.AssemblyInfoInputs.cache
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\Node_home.AssemblyInfo.cs
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\Node_home.csproj.CoreCompileInputs.cache
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\Node_home.dll
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\refint\Node_home.dll
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\Node_home.pdb
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\Node_home.genruntimeconfig.cache
+C:\Users\geras\source\repos\Node_home\Node_home\obj\Debug\net6.0\ref\Node_home.dll
