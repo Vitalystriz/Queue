@@ -305,6 +305,125 @@ class Program
             PosRangeList.SetNext(new Node<Range>(R));
         return RangeList;
     }
+    //Summ of all values of stack
+    public static int SumStack(Stack<int> S)
+    {
+        int sum = 0;
+        Stack<int> TempS = new Node_home.Stack<int>();
+        while(!S.IsEmpty())
+        {
+            sum += S.Top();
+            TempS.Push(S.Pop());
+        }
+        while (!TempS.IsEmpty())
+        {
+            S.Push(TempS.Pop());
+        }
+        return sum;
+    }
+    public static Stack<int> RemoveTheElement(Stack<int> S, int x)
+    {
+        Stack<int> TempS = new Node_home.Stack<int>();
+        Stack<int> Res = new Node_home.Stack<int>();
+        while (!S.IsEmpty())
+        {
+            if (S.Top() != x)
+            {
+                TempS.Push(S.pop());
+            }
+            else { S.pop(); }
+        }
+        while (!TempS.IsEmpty())
+        {
+            Res.Push(TempS.Pop());
+        }
+        return Res;
+    }   
+    public static int  FindTheMinimum(Stack<int> S)
+    {
+        
+        int X = S.Top();
+        while (!S.IsEmpty())
+        {
+            if(S.Top() < X)
+            {
+                X = S.Top;
+            }
+            S.Pop();
+        }
+        return X;
+    }
+    public static int CountOFValue(Stack<int> S)
+    {
+        int X = 0;
+        while (!S.IsEmpty())
+        {
+            if (S.Top() == X)
+            {
+                X++;
+            }
+            S.Pop();
+        }
+        return X;
+
+    }
+    public static Stack<int> SortStck(Stack<int> S) 
+    {
+        Stack<int> TempS = new Node_home.Stack<int>();
+        while(!S.IsEmpty())
+        {
+            int x = FindTheMinimum(S);
+            TempS.Push(x);
+            S = RemoveTheElement(S, x);
+
+        }
+        return TempS;
+    }
+    public static bool IsExist(Stack<int> S, int X)
+    {
+      
+        while (!S.IsEmpty())
+        {
+           if(X == S.Top())
+           {
+                return true;
+           }
+           S.pop(S.Top());
+
+
+        }
+        return false;
+    }
+
+
+
+    public static Stack<int> CopyStack(Stack<int> S)
+    {
+        Stack<int> TempS = new Node_home.Stack<int>();
+        Stack<int> CopyS = new Node_home.Stack<int>();
+        while (!S.IsEmpty())
+        {
+            TempS.Push(S.Pop());
+        }
+        while (!S.IsEmpty)
+        {
+            S.Push(TempS.Pop());
+            CopyS.Push(S.Pop());
+        }
+        return CopyS;
+    }
+    public static int CountValueInStuck(Stack<int> S)
+    {
+        int count = 0;
+        Stack<int> TempS = CopyStack(S); //why we can't write S?
+        while (TempS.IsEmpty())
+        {
+            count++;
+            TempS.Pop();
+        }
+        return count;
+    }
+  
     static void Main(string[] args)
     {
         //Console.WriteLine("Enter Length");
@@ -368,34 +487,44 @@ class Program
         //PrintList(L3);
         //Console.WriteLine();
         //Console.WriteLine("***********************");
-        Node<int> L = new Node<int>(3);
-        Node<int> PosL = L;
-        PosL.SetNext(new Node<int>(4));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(5));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(12));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(19));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(20));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(100));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(101));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(102));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(103));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(104));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(200));
-        PosL = PosL.GetNext();
-        PosL.SetNext(new Node<int>(201));
-        PosL = PosL.GetNext();
-        PrintTheAllType<int>(L);
-        PrintTheAllType<Range>(CreateRangeList(L));
+        //Node<int> L = new Node<int>(3);
+        //Node<int> PosL = L;
+        //PosL.SetNext(new Node<int>(4));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(5));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(12));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(19));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(20));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(100));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(101));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(102));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(103));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(104));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(200));
+        //PosL = PosL.GetNext();
+        //PosL.SetNext(new Node<int>(201));
+        //PosL = PosL.GetNext();
+        //PrintTheAllType<int>(L);
+        //PrintTheAllType<Range>(CreateRangeList(L));
+        Stack<int> S1 = new Stack<int>();
+        S1.Push(1);
+        S1.Push(27);
+        S1.Push(23);
+        S1.Push(90);
+        S1.Push(100);
+        Console.WriteLine(S1.ToString());
+        Stack<int> S2 = S1.CopySt();
+        Console.WriteLine(S2);
+
         //Contact C1 = new Contact("rbg9rwbjrw", "045");
         //Contact C2 = new Contact("porg[e0or", "098");
         //Contact C3 = new Contact("rbgwdqd", "0432");

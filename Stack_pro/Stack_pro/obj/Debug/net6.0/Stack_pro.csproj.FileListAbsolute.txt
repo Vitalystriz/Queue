@@ -1,0 +1,15 @@
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\bin\Debug\net6.0\Stack_pro.exe
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\bin\Debug\net6.0\Stack_pro.deps.json
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\bin\Debug\net6.0\Stack_pro.runtimeconfig.json
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\bin\Debug\net6.0\Stack_pro.dll
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\bin\Debug\net6.0\Stack_pro.pdb
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\Stack_pro.csproj.AssemblyReference.cache
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\Stack_pro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\Stack_pro.AssemblyInfoInputs.cache
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\Stack_pro.AssemblyInfo.cs
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\Stack_pro.csproj.CoreCompileInputs.cache
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\Stack_pro.dll
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\refint\Stack_pro.dll
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\Stack_pro.pdb
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\Stack_pro.genruntimeconfig.cache
+C:\Users\geras\source\repos\Stack_pro\Stack_pro\obj\Debug\net6.0\ref\Stack_pro.dll
