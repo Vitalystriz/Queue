@@ -1,0 +1,15 @@
+C:\Users\geras\source\repos\qeueus\qeueus\bin\Debug\net6.0\qeueus.exe
+C:\Users\geras\source\repos\qeueus\qeueus\bin\Debug\net6.0\qeueus.deps.json
+C:\Users\geras\source\repos\qeueus\qeueus\bin\Debug\net6.0\qeueus.runtimeconfig.json
+C:\Users\geras\source\repos\qeueus\qeueus\bin\Debug\net6.0\qeueus.dll
+C:\Users\geras\source\repos\qeueus\qeueus\bin\Debug\net6.0\qeueus.pdb
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\qeueus.csproj.AssemblyReference.cache
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\qeueus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\qeueus.AssemblyInfoInputs.cache
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\qeueus.AssemblyInfo.cs
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\qeueus.csproj.CoreCompileInputs.cache
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\qeueus.dll
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\refint\qeueus.dll
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\qeueus.pdb
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\qeueus.genruntimeconfig.cache
+C:\Users\geras\source\repos\qeueus\qeueus\obj\Debug\net6.0\ref\qeueus.dll

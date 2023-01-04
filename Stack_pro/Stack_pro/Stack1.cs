@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,7 +21,7 @@ namespace Stack_pro
             if (this.First == null) { return true; }
             return false;
         }
-
+        
 
         public void Push(T x)
         {
@@ -41,6 +42,7 @@ namespace Stack_pro
         }
         public Stack1<T> CopySt()
         {
+            
             Node<T> Pos = this.First;
             Stack1<T> Copy = new Stack1<T>();
             Stack1<T> Temp = new Stack1<T>();
@@ -57,6 +59,8 @@ namespace Stack_pro
             }
             return Copy;
         }
+
+
         public override string ToString()
         {
             string str = "[";
@@ -64,7 +68,9 @@ namespace Stack_pro
             Node<T> pos = this.First;
             while (pos != null)
             {
+
                 str = str + pos.GetValue().ToString();
+                
                 if (pos.GetNext() != null)
                     str = str += ",";
                 pos = pos.GetNext();
