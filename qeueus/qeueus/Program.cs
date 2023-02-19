@@ -1,6 +1,7 @@
 ﻿using Node_home;
 using Queues;
 using System.Collections.Generic;
+using System.Formats.Asn1;
 
 int Digits(Queue1<int> Q1)
 {
@@ -107,6 +108,21 @@ bool IsElementOnlyOnce(Queue1<int> Q, int x)
     }
     return false;
 }
+//int  IsElementOnlyOnce(Queue1<int> Q, int x)
+//{
+//    int tag = 0;
+//    Queue1<int> Q1 = Q.CopyQueue();
+//    //Console.WriteLine(Q1);
+//    while (!Q1.IsEmpty())
+//    {
+//        //Console.WriteLine(Q1.Head());
+//        if (x == Q1.Remove())
+//        {
+//            tag += 1;
+//        }
+//    }
+//    return tag;
+//}
 
 Queue1<int> WithoutRepeated(Queue1<int> Q)
 {
@@ -159,6 +175,38 @@ Queue1<int> RemoveValue(Queue1<int> Q, int k)
     return Q2;
     
 }
+string CountOfAppears(Queue1<int> Q) // the bigggest count of appears 111221111133 1;5
+{
+    int countmax = 0;
+    int x = Q.Head();
+    int count = 0;
+    int set = 0;
+    while (!Q.IsEmpty())
+    {
+        int y = Q.Remove();
+        if (y != x)
+        {
+            if(count > countmax)
+            {
+                countmax = count;
+                set = x;
+            }
+            x = y;
+        }
+        else
+        {
+            count++;
+
+        }
+    }
+    if (count > countmax)
+    {
+        countmax = count;
+        set = x;
+    }
+
+    return "count "+countmax.ToString()+" degit "+set.ToString();
+}
 Queue1<int> Sort(Queue1<int> Q) // проблема 
 {
     Queue1<int> Q1 = Q.CopyQueue();
@@ -185,6 +233,22 @@ int Quantety(Queue1<int> Q)
     
     return a;
     
+}
+Queue1<int> Delete (Queue1<int> Q, int k)
+{
+    Queue1<int> Q2 = new Queue1<int>();
+    while (!Q.IsEmpty())
+    {
+        if (Q.Head() == k)
+        {
+            Q.Remove();
+        }
+        else
+        {
+            Q2.Insert(Q.Remove());
+        }
+    }
+    return Q2;
 }
 bool ComparingQueus(Queue1<int>Q, Queue1<int> Q2) // isequal
 {
@@ -213,16 +277,62 @@ bool MoovingQueus(Queue1<int> Q, Queue1<int> Q2) // 5264 6452 true
     }
     return false;
 }
+bool Sumofthirds(Queue1<int> Q)
+{
+    Queue1<int> Q1 = Q.CopyQueue();
+    int i=0;
+    int count = 0;
+    for(int j=0; j<Quantety(Q)/3; j++)
+    {
+        count += Q.Remove();
+    }
+    int sum = 0;
+    while (!Q.IsEmpty())
+    {
+        if (i == Quantety(Q1) / 3)
+        {
+            if(sum != count)
+            {
+                return false;
+                sum = 0;
+            }
+        }
+        sum += Q.Remove();
+
+        i++;
+    }
+    return true;
+}
+bool IsMagic(Queue1<int> Q)
+{
+    Queue1<int> Q1 = Q.CopyQueue();
+    if (Quantety(Q1)%3!=0)
+    {
+        return false;
+    }
+    if (Sumofthirds(Q1)!=true)
+    {
+        return false;
+    }
+}
 
 
 
-Queue1<int> Q2 = new Queue1<int>();
+
+
 Queue1 <int> Q = new Queue1<int>();
 Q.Insert(6);
-Q.Insert(9);
+Q.Insert(6);
 Q.Insert(1);
-int r = 1;
-Console.WriteLine(RemoveValue(Q,r));
+
+Q.Insert(7);
+Q.Insert(7);
+Q.Insert(7);
+
+Console.WriteLine(Rep(Q));
+//Console.WriteLine(WithoutRepeating1(Q));
+//int r = 1;
+//Console.WriteLine(RemoveValue(Q,r));
 //Q2.Insert(6);
 //Q2.Insert(1);
 //Q2.Insert(9);
@@ -238,6 +348,31 @@ Console.WriteLine(RemoveValue(Q,r));
 //Console.WriteLine(IsElementOnlyOnce(Q, 6));
 ////Console.WriteLine(Q);
 //Console.WriteLine(Quantety(Q));
+//Console.WriteLine(MoovingQueus(Q,Q2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
